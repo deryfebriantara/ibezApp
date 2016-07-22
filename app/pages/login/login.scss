@@ -1,0 +1,53 @@
+.centering {
+  text-align: center;
+}
+.container {
+    width: 10em;
+    margin: 5em auto;
+}
+
+  .logo {
+    width: 10em;
+    height: 10em;
+    animation: bounceIn 3s;
+    transform: rotate(0deg) scale(1) translateZ(0);
+    transition: all 1s cubic-bezier(.8,1.8,.75,.75);
+    cursor: pointer;
+}
+
+  .logo:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+  .bubble { fill: #e76853; }
+  .icon { fill:  #fff; }
+
+  @keyframes bounceIn {
+  0% {
+  opacity: 1;
+  transform: scale(.3);
+}
+
+  50% {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+  70% {
+  opacity: 1;
+  transform: scale(.9);
+}
+
+  100% {
+  opacity: 1;
+  transform: scale(1);
+}
+}
+
+  .lobster {
+    font-family: Lobster, Monospace;
+    color:white;
+}
+  .back-gr{
+    background-color:#67BCDB;
+  }
